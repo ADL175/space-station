@@ -30,7 +30,7 @@ function submitAnswers(e) {
   }
 
   var results = document.getElementById('results');
-  results.innerHTML = 'Nice job, you scored ' + score + ' out of ' + total + '.';
+  results.innerHTML = 'You scored ' + score + ' out of ' + total + '.';
   return false;
 
 };
