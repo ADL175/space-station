@@ -5,13 +5,14 @@ background: url(../assets/space-background.jpg);
   opacity: 75%;
 }
 
-h1{
+/*h1{
   text-align: center;
-  font-family: 'Handlee', cursive;
+  font-family: 'Press Start 2P', cursive;
+
   font-size: 70px;
   margin: 20px;
   color: #fff;
-}
+}*/
 
 textarea {
     display: inline-block;
@@ -21,77 +22,52 @@ input[type="radio"] {
   margin-right: 6px;
 }
 
+/*input .comment-stuff{
+  width: 300px;
+  height: 40px;
+}*/
+
 #qheader {
   font-size: 40px;
   padding-left: 20px;
   color: #672065
 }
 
-/*//////////////////////////////////////////*/
-/*///////////  nav  //////////*/
-/*//////////////////////////////////////////*/
-
-#nav-wrapper {
-  height: 61px;
-  width: 505px;
-  background-color: #672065;
-  margin-top: -16px;
-  margin-left: -8px;
-  border-bottom-right-radius: 25px;
-}
-#header {
-  height: 50px;
-  width: 500px;
-  background-color: #5f5f5f;
-  opacity: 70%;
-  margin-top: -16px;
-  margin-left: -8px;
-  border-bottom-right-radius: 25px;
-}
-
-#navbar {
-  color: #fff;
-  text-decoration: none;
-  list-style-type: none;
-  text-align: center;
-
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  width: 500px;
-}
-
-.nav-links {
-  text-decoration: none;
-  color: inherit;
-    font-family: 'Handlee', cursive;
-    font-size: 18px;
-    font-weight: bold;
-    display: inline-block;
-    padding-right: 30px;
-}
-
 
 /*//////////////////////////////////////////*/
 /*///////////  nav  //////////*/
 /*//////////////////////////////////////////*/
+
+.radio-btn {
+/*text-align: left;*/
+/*display: inline;*/
+}
 
 .question {
   color: #672065;
-  font-size: 30px;
-  font-family: 'Handlee', cursive;
+  font-size: 20px;
+  font-family: 'Press Start 2P', cursive;
+  line-height: 40px;
+
 }
 
 .answers {
   color: black;
-  font-size: 25px;
-  font-family: 'Handlee', cursive;
+  font-size: 20px;
+  font-family: helvetica;
+  /*text-align: left;*/
 }
 
+ul {
+  columns: 2;
+  /*text-align: left!important;*/
+  line-height: 40px;
+
+}
 #submit-results {
   box-shadow: 2px 2px 5px #888888;
-  height: 65px;
-  width: 100px;
+  height: 80px;
+  width: 150px;
   font-size: 15px;
   border-radius: 10px;
   color: #672065;
@@ -105,8 +81,8 @@ padding: 4px
 
 #try-again {
   box-shadow: 2px 2px 5px #888888;
-  height: 65px;
-  width: 75px;
+  height: 80px;
+  width: 150px;
   font-size: 15px;
   border-radius: 10px;
   color: #672065;
@@ -120,7 +96,8 @@ padding: 4px
 
 #form-and-comments {
   font-size: 25px;
-  font-family: 'Handlee', cursive;
+  font-family: 'Press Start 2P', cursive;
+
   background-color: #fff;
   opacity: 0.7;
   width: 50%;
@@ -147,7 +124,8 @@ padding: 4px
 #qheader {
   padding-left: 75px;
   font-size: 40px;
-  font-family: 'Handlee', cursive;
+  font-family: 'Press Start 2P', cursive;
+
   margin: 15px;
 }
 
@@ -156,7 +134,8 @@ padding: 4px
   padding-left: 100px;
   color: black;
   font-size: 20px;
-  font-family: 'Handlee', cursive;
+  font-family: 'Press Start 2P', cursive;
+
 }
 
 #user-name {
@@ -179,38 +158,45 @@ padding: 4px
 .nav-links {
   text-decoration: none;
   color: inherit;
-  font-family: 'Handlee', cursive;
+  font-family: 'Press Start 2P', cursive;
+
 }
 
 .question {
   color: black;
-  font-size: 30px;
-  font-family: 'Handlee', cursive;
+  font-size: 20px;
+  font-family: 'Press Start 2P', cursive;
+
 }
 
-.answers {
+/*.answers {
   color: black;
   font-size: 25px;
-  font-family: 'Handlee', cursive;
-}
+  font-family: 'Press Start 2P', cursive;
+
+}*/
 
 .username-header {
   color: #672065;
+  font-size: 15px;
 }
 
 .usercomment {
   font-style: italic;
+  color: black;
+  font-size: 18px;
 }
 
 #comments-intro {
   color: #672065;
-  font-weight: bold;
+  /*font-weight: bold;*/
+  font-size: 18px;
 }
 
 #comments-button {
   box-shadow: 2px 2px 5px #888888;
-  height: 65px;
-  width: 100px;
+  height: 80px;
+  width: 150px;
   font-size: 15px;
   border-radius: 10px;
   color: #672065;
@@ -224,6 +210,7 @@ padding: 4px
 
 .button-div {
   display: inline-block;
+
 }
 
 
@@ -242,7 +229,7 @@ footer {
   margin: 30px 20px;
   border: 5px solid #672065;
   padding: 25px;
-  font-family: helvetica;
+  /*font-family: helvetica;*/
   font-size: 12px;
   opacity: .9;
   }
