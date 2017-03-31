@@ -54,22 +54,22 @@ h2 {
 #subscribe {
   overflow: hidden;
   float: right;
-  margin: 20px;
+  margin: 0px;
   font-family: helvetica;
   font-size: 20px;
   background-color: white;
-  /*opacity: 0.7;*/
+  /* opacity: 0.7; */
   border-radius: 20px;
   position: absolute;
   opacity: .7;
   right: 0;
-  top: 209px;
+  top: 227px;
 }
 
 
 .submit {
   border-radius: 20px;
-  margin: 2px;
+  margin: 0px;
   color: black;
   opacity: .7;
   background: white;
