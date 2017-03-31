@@ -315,7 +315,7 @@ footer {
 /////////////////////////*/
 
 .linkbtn {
-    background-color: #5f5f5f;
+    background-color: transparent;
     color: white;
     font-family: 'Press Start 2P', cursive;
     padding: 10px 20px;
@@ -335,7 +335,7 @@ footer {
 /////////////////////////*/
 
 .linkbtn:hover, .linkbtn:focus {
-    background-color: #672065;
+    background-color: #5f5f5f;
 }
 
 .link-content {
