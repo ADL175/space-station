@@ -12,8 +12,8 @@ function addPost (event) {
   var nameTag = document.createElement('h4');
   nameTag.className = 'username-header';
   messageBoard.prepend(nameTag);
-  nameTag.innerText = (' -' + userName);
-  lsNames.push(' -' + userName);
+  nameTag.innerText = ('from ' + userName);
+  lsNames.push('from ' + userName);
   localStorage.setItem('nameTag', JSON.stringify(lsNames));
   var commentTag = document.createElement('p');
   commentTag.className = 'usercomment';
